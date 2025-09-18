@@ -7,7 +7,7 @@ Nossa abordagem foi guiada por um pipeline robusto de Ciência de Dados focado e
 
 Amostragem Segura e União dos Dados eram cruciais, para superar os desafios de memória RAM devido ao limite de processamento disponível, a estratégia foi trabalhar todo o arquivo de 6.560.698 linhas da base de transações e uma amostra de mesmo tamanho para os produtos que possui um arquivo maior 195 milhões de linhas, além dos dados de PDV. Os dados de PDV, Transações e de produtos foram filtrados para compor a amostra final, garantindo uma junção eficiente.
 
-Utilizamos ambiente de Linguagem R no google colab, visto que o computador não possuia capacidade, com isso possuía apenas 12GB de RAM para o processamento.
+Utilizamos ambiente de Linguagem R e Python 3 no google colab, visto que o computador não possuia capacidade, com isso possuía apenas 12GB de RAM para o processamento.
 Nos primeiro dias, foi basicamente para encontra um pacote e biblioteca que pudess ler o parquet, como nunca tinhamos utilizado um arquivo tão grande, pocurei alternativas para a obtenção de Dataframe compatível com a memória do ambiente virtual.
 
 Todas quase todas as tentativas foram fracassadas, até que encontrei uma possibilidade utilizando o pacote "duckdb", sendo esse crucial para a manipulação, pois com ele pude utilizar SELECT*FROM, para entrar no ds_produtos e coletar uma amostra de 6.560.698 linhas, e poder seguir com a modelagem.
