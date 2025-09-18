@@ -12,6 +12,8 @@ Nos primeiro dias, foi basicamente para encontra um pacote e biblioteca que pude
 
 Todas quase todas as tentativas foram fracassadas, até que encontrei uma possibilidade utilizando o pacote "duckdb", sendo esse crucial para a manipulação, pois com ele pude utilizar SELECT*FROM, para entrar no ds_produtos e coletar uma amostra de 6.560.698 linhas, e poder seguir com a modelagem.
 
+Após mudança no volume, fizemos novo teste, com excelentes resultados, alé de retirar outlier e padronizar os dados.
+
 Análise Exploratória de Dados (EDA):
 
 Foram criados gráficos para analisar o comportamento dos PDVs, identificando que a maioria das lojas é do tipo Off Premise.
@@ -168,11 +170,11 @@ Análise: Este gráfico de linhas demonstra a tendência das vendas ao longo dos
 📈 Resultados e Avaliação
 A performance do modelo de XGBoost foi avaliada com as seguintes métricas, que indicam um alto poder preditivo na base de validação:
 
-RMSE: 5.3386393 (Erro médio nas previsões)
+RMSE: 0.48 (Erro médio nas previsões)
  
-R²: 0.8596336  (Poder de explicação do modelo, que é de 85,9%)
+R²: 0.93 (Poder de explicação do modelo, que é de 93%)
 
-MAE: 0.7088534  (Erro absoluto médio)
+MAE: 0.22  (Erro absoluto médio)
 
 
 🚀 Como Usar e Pré-requisitos
