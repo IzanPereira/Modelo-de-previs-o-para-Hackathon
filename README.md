@@ -1,4 +1,4 @@
-# Modelo-de-previs-o-para-Hackathon
+# Modelos-de-previsao-para-Hackathon
 Objetivo do Projeto
 Este projeto tem como objetivo desenvolver um modelo de previsão de vendas (forecast) para o varejo. A solução prediz a quantidade de vendas semanal por PDV e SKU para as cinco primeiras semanas de janeiro de 2023, utilizando o histórico de vendas de 2022.
 
