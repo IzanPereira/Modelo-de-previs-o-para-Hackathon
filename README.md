@@ -17,7 +17,7 @@ Análise Exploratória de Dados (EDA):
 Foram criados gráficos para analisar o comportamento dos PDVs, identificando que a maioria das lojas é do tipo Off Premise.
 <img width="840" height="840" alt="download" src="https://github.com/user-attachments/assets/f6e66552-3b50-42f6-bdf5-4591b67ce0fa" />
 
-Gráficos de série temporal mostraram uma forte sazonalidade, com quedas de vendas nos finais de semana e feriados, e picos em datas de promoção.
+Gráficos de série temporal mostraram uma forte sazonalidade, com quedas de vendas nos finais de semana e feriados, e picos em datas de promoção, além de revelar que as promoções não tiveram um desempenho satisfatório.
 <img width="840" height="840" alt="download (14)" src="https://github.com/user-attachments/assets/aaed9d7c-4bec-4a24-86a0-48be996d4ff3" />
 <img width="840" height="840" alt="download (12)" src="https://github.com/user-attachments/assets/3457de00-5d9d-4d53-a753-1945cce18ace" />
 <img width="840" height="840" alt="download (13)" src="https://github.com/user-attachments/assets/b16cf2b8-33d0-4f7c-aeed-1c2dacff7c6c" />
