@@ -209,5 +209,7 @@ Ele realizará a amostragem, a união dos dados, a agregação e a modelagem, ge
 
 🧑‍💻 Equipe
 Izan Cassio Nascimento Pereira
+
 Lincon Souza Pacífico
+
 Pedro Rodrigues Candiani
